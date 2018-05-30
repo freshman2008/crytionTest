@@ -24,9 +24,18 @@
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# ignore prj files
+algo/Debug
+algo/EncryptDecryptTest/Debug/
+*.db
+*.idb
+*.pdb
+*.opendb
+*.suo
