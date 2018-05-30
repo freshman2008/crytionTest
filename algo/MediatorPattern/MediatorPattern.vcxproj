@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CB5BE985-FA90-460B-9AD6-785DD2E9BE4E}</ProjectGuid>
+    <ProjectGuid>{2FB79E24-BE07-44D9-A554-25D1191F735A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>statePattern</RootNamespace>
+    <RootNamespace>MediatorPattern</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>statePattern</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -150,7 +149,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="statePattern.cpp" />
+    <ClCompile Include="MediatorPattern.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
